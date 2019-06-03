@@ -9,3 +9,7 @@ function nameToAttributes(names){
   return ({firstName:fName, lastName:lName})
 })
 }
+
+function attributesToPhrase(){
+  return `<drivers.name> is from <drivers.hometown>`
+}
