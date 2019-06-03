@@ -9,11 +9,3 @@ function nameToAttributes(names){
   return ({firstName:fName, lastName:lName})
 })
 }
-function attributesToPhrase(homie){
-  return homie.map(function(name)){
-    let fName= name.split (" ")[0]
-    let fHome=name.split (" ")[1]
-    console.log (${fName} is from ${fHome})
-  }
-
-}
